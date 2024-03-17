@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(28, 51, 58);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+a {
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table,
+th,
+tr,
+td {
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    padding: 7px;
+
+}
+
+.styled-table th[scope=col],
+th[scope=row],
+th[scope=colgroup] {
+    padding: 20px;
+    background-color: rgb(12, 41, 103);
+}
+
+
+
+#main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#input-container,
+#grammar-container {
+    flex: 1;
+    margin: 0 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+#parse-btn {
+    padding: 10px 20px;
+    cursor: pointer;
+}

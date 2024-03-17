@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Shift Reduce Parser</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1>Shift Reduce Parser</h1>
+    <h3>Created by: Corin Canepa</h3>
+
+    <div class="center-container">
+        <a href="CSC4101_Project_II.pdf" download class="btn">
+            <i class="fa fa-download"></i> Download Assignment Instructions
+        </a>
+    </div>
+    <div id="main-container">
+        <div id="input-container">
+            <textarea id="input-expression" name="input-expression" placeholder="Enter expression"
+                style="height:200px"></textarea>
+            <button id="parse-btn" onclick="parsButtonOnClick()">Parse</button>
+        </div>
+        <div id="grammar-container">
+            <textarea id="grammar-expression" name="grammar-expression" placeholder="Enter Grammar"
+                style="height:200px"></textarea>
+        </div>
+    </div>
+    <h3>
+        <div id="buttonText"></div>
+    </h3>
+    <div id="parser-table"></div>
+    <script src="app.js"></script>
+</body>
+</html>
